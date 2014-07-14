@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Decoration</title>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <link rel="stylesheet" href="styles/decorate.css">
+    <script src="scripts/decorate.js"></script>
+
+</head>
+<body class="background">
+
+
+    <div id="starShine">
+        <canvas></canvas>
+    </div>
+    <!-- <script src="scripts/main.js"></script> -->
+    <script>
+        (function($){
+            $('#starShine').decorate({
+                //type: 'star',
+                //decorationColor: 'red',
+                //direction: 'down',
+                // points: 6,
+                // size:20
+            });
+        })(jQuery);
+    </script>
+</body>
+</html>
