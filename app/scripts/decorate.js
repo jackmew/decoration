@@ -69,7 +69,8 @@ function setType() {
             points = 60;
             decorationColor=ctx.createRadialGradient(180,30,10,130,100,400);
             decorationColor.addColorStop(0,"yellow");
-            decorationColor.addColorStop(1,"green");
+            decorationColor.addColorStop(1,"lightgreen");
+
             break;
         case 'iceCrystal':
             decorationColor = 'rgba(237, 241, 10, 0.5)';
